@@ -1,0 +1,32 @@
+* {
+  font-family: 'Yomogi', cursive;
+}
+
+
+body {
+  background: #ddd;
+  cursor: pointer;
+  font-size: 20px;
+  font-family: "Kalam", Arial;
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+div, canvas {
+  position: absolute;
+  left: 0;
+}
+
+#text {
+  display: none;
+  top: 60%;
+  z-index: 200;
+}
+
+.text {
+  width: 100%;
+  text-align: center;
+  color: #AA8ADA;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>まみ、好きです</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Yomogi&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- start Quiz button -->
+    <div class="start_btn"><button>Start Quiz！！</button></div>
+
+    <!-- Info Box -->
+    <div class="info_box">
+        <div class="info-title"><span>まみのために作ったクイズです！</span></div>
+        <div class="info-list">
+            <div class="info">1. まみには質問ごとに<span> 15秒</span> を持っています！！😁</div>
+            <div class="info">2. 一度選択した回答は、 変えるのはダメです.笑笑</div>
+            <div class="info">3. そして、15秒経過すると誤答処理になりますのでご注意ください (集中してね～まみ！)</div>
+            <div class="info">4. また！クイズを解いている途中逃げられないよ。。！</div>
+            <div class="info">5. 最後にまみが選んだ返事、悩んだ時間、誤答回数も全部記録できないから頑張って解いてね!! (開発できなかった..😭)</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">やめる..?</button>
+            <button class="restart">行こう！</button>
+        </div>
+    </div>
+
+    <!-- Quiz Box -->
+    <div class="quiz_box">
+        <header>
+            <div class="title">まみのクイズ時間。笑笑</div>
+            <div class="timer">
+                <div class="time_left_txt">残り時間</div>
+                <div class="timer_sec">15</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+            </div>
+            <div class="option_list">
+            </div>
+        </section>
+
+        <footer>
+            <div class="total_que">
+            </div>
+            <button class="next_btn">次の質問！</button>
+        </footer>
+    </div>
+
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">僕が作ったクイズを全部解いたんだね！！</div>
+        <div class="score_text">
+        </div>
+        <div class="buttons">
+            <button class="restart">もう一回解く？</button>
+            <button class="quit">終了する</button>
+        </div>
+        <a href="./finish_index.html">それとも他のを望んでるの？笑笑</a>
+    </div>
+
+    <script src="js/questions.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>
