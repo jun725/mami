@@ -152,15 +152,15 @@ function showResult(){
     const scoreText = result_box.querySelector(".score_text");
     if (userScore > 18){ // if user scored more than 3
         //creating a new span tag and passing the user score number and total question number
-        let scoreTag = '<span>お疲れ様!!!!! まみは僕の写真を見る資格がある！！！</span>';
+        let scoreTag = '<span>お疲れ様!!!!! まみは僕の写真を見る資格がある！！！パスワードは mamidaisuki123 です! 熱心に(?)鑑賞してね~</span>';
         scoreText.innerHTML = scoreTag;  //adding new span tag inside score_Text
     }
     else if(userScore > 10){ // if user scored more than 1
-        let scoreTag = '<span>半分以上は当てたね... もっとがんばれ～！！！パスワードは mamidaisuki123 です! 熱心に(?)鑑賞してね~</span>';
+        let scoreTag = '<span>半分以上は当てたね... もっとがんばれ～！！！ 18個以上当てないと暗証番号が見れない.. </span>';
         scoreText.innerHTML = scoreTag;
     }
     else { // if user scored less than 1
-        let scoreTag = '<span>まみ、いったい何をしている？！？ もう一度問題を解いて！！！😠😠😠</span>';
+        let scoreTag = '<span>まみ、いったい何をしている？！？ もう一度問題を解いて！！！😠😠😠 18個以上当てないと暗証番号が見れない.. </span>';
         scoreText.innerHTML = scoreTag;
     }
 }
