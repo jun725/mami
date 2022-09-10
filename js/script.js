@@ -156,7 +156,7 @@ function showResult(){
         scoreText.innerHTML = scoreTag;  //adding new span tag inside score_Text
     }
     else if(userScore > 10){ // if user scored more than 1
-        let scoreTag = '<span>半分以上は当てたね... もっとがんばれ～！！！</span>';
+        let scoreTag = '<span>半分以上は当てたね... もっとがんばれ～！！！パスワードは mamidaisuki123 です! 熱心に(?)鑑賞してね~</span>';
         scoreText.innerHTML = scoreTag;
     }
     else { // if user scored less than 1
